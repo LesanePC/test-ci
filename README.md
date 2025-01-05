@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/j8as1992wbp0oek0?svg=true)](https://ci.appveyor.com/project/pmuratov/ci-template-functions)
