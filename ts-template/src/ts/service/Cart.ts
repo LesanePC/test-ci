@@ -13,12 +13,9 @@ export default class Cart {
 
 
 getTotal(): number {
-    let total: number = 0;
-    this._items.forEach((item) => {
-        total += item.price;
-    });
-    return total;
+    return this._items.filter(item => true).reduce((total, item) => total + item.price, 0);
 }
+
 
 getDiscout(discout: number): number {
     let total: number = this.getTotal();
